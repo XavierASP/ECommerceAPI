@@ -1,4 +1,6 @@
-﻿using ECommerceAPI.Data;
+﻿using AutoMapper;
+using ECommerceAPI.Data;
+using ECommerceAPI.DTO;
 using ECommerceAPI.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -15,17 +17,21 @@ namespace ECommerceAPI.Controllers
     public class EmployeeController : ControllerBase
     {
         private IRepository<Employee> _repository;
+        private readonly IMapper _mapper;
 
-        public EmployeeController(IRepository<Employee> repository)
+        public EmployeeController(IRepository<Employee> repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
         // GET: api/<EmployeeController>
         [HttpGet]
-        public ActionResult<IEnumerable<Employee>> Get()
+        public async Task<ActionResult<IEnumerable<EmployeeReadDTO>>> Get()
         {
-            var employees = _repository.GetAll();
-            return Ok(employees);
+            var employees = await _repository.GetAll();
+            var employeesDTO = _mapper.Map<IEnumerable<EmployeeReadDTO>>(employees);
+
+            return Ok(employeesDTO);
         }
 
         // GET api/<EmployeeController>/5
@@ -53,12 +59,28 @@ namespace ECommerceAPI.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Employee employee)
         {
-            if (id != employee.Id) 
+            var oldEmployee = _repository.Get(employee.Id);
+            if (oldEmployee == null)
             {
-                return BadRequest();
+                _repository.Add(employee);
+
+                return CreatedAtRoute("GetEmployeeById",
+                new { id = employee.Id },
+                 employee);
             }
-            _repository.Update(employee);
-            return NoContent();
+            else
+            {
+
+                _repository.Update(employee);
+                return NoContent();
+            }
+            //if (id != employee.Id)
+            //{
+                
+            //    return BadRequest();
+            //}
+            //_repository.Update(employee);
+            //return NoContent();
 
         }
 
@@ -67,12 +89,12 @@ namespace ECommerceAPI.Controllers
         public ActionResult Delete(int id)
         {
             var employee = _repository.Get(id);
-            if (employee == null) 
+            if (employee == null)
             {
                 return NotFound();
             }
             _repository.Delete(id);
-            return Ok();
+            return NoContent();
 
         }
     }
