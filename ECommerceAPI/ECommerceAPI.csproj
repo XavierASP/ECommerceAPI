@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ECommerceAPI.Data\ECommerceAPI.Data.csproj" />
     <ProjectReference Include="..\ECommerceAPI.Model\ECommerceAPI.Model.csproj" />
   </ItemGroup>
 

@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace ECommerceAPI.Migrations
+namespace ECommerceAPI.Data.Migrations
 {
-    [DbContext(typeof(EmployeeContext))]
-    [Migration("20210415123148_InitialMigration")]
-    partial class InitialMigration
+    [DbContext(typeof(DatabaseContext))]
+    [Migration("20210416041609_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

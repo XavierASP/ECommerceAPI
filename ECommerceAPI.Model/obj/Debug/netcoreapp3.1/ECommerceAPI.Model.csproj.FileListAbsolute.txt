@@ -6,3 +6,4 @@ E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.M
 E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.csproj.CoreCompileInputs.cache
 E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.dll
 E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.pdb
+E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.csprojAssemblyReference.cache

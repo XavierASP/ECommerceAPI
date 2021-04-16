@@ -68,3 +68,13 @@ E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\net
 E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\ECommerceAPI.Model.pdb
 E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Humanizer.dll
 E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\ECommerceAPI.Data.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\ECommerceAPI.Data.pdb
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\VS-GIT\ECommerceAPI\ECommerceAPI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
