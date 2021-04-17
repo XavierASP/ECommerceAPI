@@ -1,9 +1,0 @@
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\bin\Debug\netcoreapp3.1\ECommerceAPI.DTO.deps.json
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\bin\Debug\netcoreapp3.1\ECommerceAPI.DTO.dll
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\bin\Debug\netcoreapp3.1\ECommerceAPI.DTO.pdb
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\obj\Debug\netcoreapp3.1\ECommerceAPI.DTO.AssemblyInfoInputs.cache
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\obj\Debug\netcoreapp3.1\ECommerceAPI.DTO.AssemblyInfo.cs
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\obj\Debug\netcoreapp3.1\ECommerceAPI.DTO.csproj.CoreCompileInputs.cache
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\obj\Debug\netcoreapp3.1\ECommerceAPI.DTO.dll
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\obj\Debug\netcoreapp3.1\ECommerceAPI.DTO.pdb
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.DTO\obj\Debug\netcoreapp3.1\ECommerceAPI.DTO.csprojAssemblyReference.cache

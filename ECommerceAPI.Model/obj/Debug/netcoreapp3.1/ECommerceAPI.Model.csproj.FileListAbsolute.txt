@@ -1,9 +1,0 @@
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\bin\Debug\netcoreapp3.1\ECommerceAPI.Model.deps.json
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\bin\Debug\netcoreapp3.1\ECommerceAPI.Model.dll
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\bin\Debug\netcoreapp3.1\ECommerceAPI.Model.pdb
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.AssemblyInfoInputs.cache
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.AssemblyInfo.cs
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.csproj.CoreCompileInputs.cache
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.dll
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.pdb
-E:\VS-GIT\ECommerceAPI\ECommerceAPI.Model\obj\Debug\netcoreapp3.1\ECommerceAPI.Model.csprojAssemblyReference.cache
