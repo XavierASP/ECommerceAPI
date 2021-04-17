@@ -21,14 +21,13 @@ namespace ECommerceAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddDbContext<DatabaseContext>(opt => opt.UseSqlServer(
-            //    Configuration.GetConnectionString("ECommerceConnection"),
-            //    migrations=>migrations.MigrationsAssembly("ECommerceAPI.Data")
-            //    ));
-            services.AddDbContext<EmployeeContext>(opt => opt.UseSqlServer(
+            services.AddDbContext<DatabaseContext>(opt => opt.UseSqlServer(
                 Configuration.GetConnectionString("ECommerceConnection")
-               
                 ));
+            //services.AddDbContext<EmployeeContext>(opt => opt.UseSqlServer(
+            //    Configuration.GetConnectionString("ECommerceConnection")
+
+            //    ));
             //services.AddDbContext<DatabaseContext>();
             services.AddControllers();
             services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
@@ -36,6 +35,7 @@ namespace ECommerceAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ECommerceAPI", Version = "v1" });
             });
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

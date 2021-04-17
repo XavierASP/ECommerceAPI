@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ECommerceAPI.Data
 {
@@ -35,9 +36,9 @@ namespace ECommerceAPI.Data
             return _databaseEntities.Find(id);
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAll()
         {
-            return _databaseEntities.AsEnumerable();
+            return await _databaseEntities.ToListAsync();
         }
 
         public bool SaveChanges()
@@ -47,6 +48,7 @@ namespace ECommerceAPI.Data
 
         public void Update(T entity)
         {
+            
             _databaseContext.Entry(entity).State = EntityState.Modified;
             _databaseContext.SaveChanges();
         }
